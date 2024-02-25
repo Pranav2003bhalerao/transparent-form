@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-irina-iriser-1086584.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.container{
+    /* border: 4px solid red; */
+    position: absolute;
+    color: rgb(164, 35, 3);
+    top: 20%;
+    left: 24%;
+}
+.container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    border-bottom: 8px solid purple;
+    margin-bottom: 43px;
+    padding: 13px 0;
+    width: 80%;
+    display: inline-block;
+}
+.box{
+    width: 100%;
+    margin: 22px 0;
+    border-bottom: 2px solid purple;
+}
+
+.box input{
+    width: 80%;
+    border: none;
+    background: none;
+    outline: none;
+    margin: 12px 3px;
+    font-size: 30px;
+    color: white;
+}
+.btn{
+        color: white;
+        cursor: pointer;
+        outline: none; 
+        margin: 12px 0;
+        padding: 10px 26px;
+        border: 2px solid purple;
+        border-radius: 20px;
+        font-size: 18px;
+        background: none;
+        font-weight: bold;
+}
+.box i{ 
+    width: 25px; 
+    text-align: center;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: purple; 
+    background: white; 
+    
+}
